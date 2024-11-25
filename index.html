@@ -72,9 +72,12 @@
 
             .profile-photo {
                 width: 80%; /* Reduce size for smaller screens */
-                height: auto; /* Maintain aspect ratio */
+                height: 80%; /* Match height to width to maintain circular shape */
+                max-width: 300px; /* Optional: Limit the maximum size */
+                max-height: 300px; /* Match max-width to ensure it's a circle */
             }
         }
+
 
         .container {
             margin-top: 60px; /* Adjust for fixed nav */
