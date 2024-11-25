@@ -1,0 +1,180 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="joshambrosevoice.index" %>
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Over Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+        }
+
+        h1, h2, p {
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+        }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 0px;
+                padding: 5px 15px;
+                border-radius: 10px;
+                transition: background-color 0.3s;
+            }
+
+                nav a:hover {
+                    background-color: #555;
+                }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Space between the image and text */
+            padding: 20px;
+        }
+
+        .profile-photo {
+            width: 400px; /* Adjust size as needed */
+            height: 400px; /* Keep it square */
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image fits well */
+            border: 2px solid #f0f0f0; /* Optional: Adds a purple border */
+        }
+
+        .container {
+            margin-top: 60px; /* Adjust for fixed nav */
+            padding: 20px;
+        }
+
+        .demo-list audio {
+            display: block;
+            margin: 10px auto;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #555;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #777;
+            }
+
+        #about {
+            display: none;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .close-about {
+            display: inline-block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #900;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .close-about:hover {
+                background-color: #b00;
+            }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div>Voice Over Portfolio</div>
+        <div>
+            <!-- <a href="#" onclick="showSection('home')">Home</a> -->
+            <a href="#" onclick="showSection('about')">About</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container" id="home">
+        <h1>Welcome to My Voice Over Portfolio</h1>
+        <p>Listen to my professional demos below:</p>
+        <div class="demo-list">
+            <h2>Commercial Demo</h2>
+            <audio controls>
+                <source src="demo-commercial.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Character Demo</h2>
+            <audio controls>
+                <source src="demo-character.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Narration Demo</h2>
+            <audio controls>
+                <source src="demo-narration.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="container" id="about">
+        <h1>About Me</h1>
+        <img src="images/jambrose.jpg" alt="Your Photo" class="profile-photo">
+        <p>Hi, I'm Josh, a passionate voiceover artist with years of experience in bringing stories to life through voice. I specialize in commercial, character, and narration voiceovers. Let's bring your project to life!</p>
+        <button class="close-about" onclick="showSection('home')">Back to Home</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Voice Over Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Navigation -->
+    <script>
+        function showSection(section) {
+            document.getElementById('home').style.display = section === 'home' ? 'block' : 'none';
+            document.getElementById('about').style.display = section === 'about' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
+
