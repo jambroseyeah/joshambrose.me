@@ -50,19 +50,30 @@
 
         .about-content {
             display: flex;
-            flex-direction: column; /* Stack items vertically on smaller screens */
-            align-items: center; /* Horizontally center items */
-            justify-content: center; /* Vertically center items */
+            align-items: center;
+            justify-content: center;
             gap: 20px; /* Space between the image and text */
             padding: 20px;
         }
 
         .profile-photo {
-            max-width: 80%; /* Make the image responsive */
-            height: auto; /* Maintain aspect ratio */
-            border-radius: 50%; /* Keep it circular */
-            object-fit: cover; /* Ensure the image fits well */
+            width: 400px; /* Default size for desktop */
+            height: 400px;
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image fits well */
             border: 2px solid #f0f0f0; /* Optional: Adds a border */
+        }
+
+        /* Add media query for smaller screens */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column; /* Stack image and text vertically */
+            }
+
+            .profile-photo {
+                width: 80%; /* Reduce size for smaller screens */
+                height: auto; /* Maintain aspect ratio */
+            }
         }
 
         .container {
