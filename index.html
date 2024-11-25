@@ -50,17 +50,19 @@
 
         .about-content {
             display: flex;
-            align-items: center;
+            flex-direction: column; /* Stack items vertically on smaller screens */
+            align-items: center; /* Horizontally center items */
+            justify-content: center; /* Vertically center items */
             gap: 20px; /* Space between the image and text */
             padding: 20px;
         }
 
         .profile-photo {
-            width: 400px; /* Adjust size as needed */
-            height: 400px; /* Keep it square */
-            border-radius: 50%; /* Makes the image circular */
-            object-fit: cover; /* Ensures the image fits well */
-            border: 2px solid #f0f0f0; /* Optional: Adds a purple border */
+            max-width: 80%; /* Make the image responsive */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Keep it circular */
+            object-fit: cover; /* Ensure the image fits well */
+            border: 2px solid #f0f0f0; /* Optional: Adds a border */
         }
 
         .container {
