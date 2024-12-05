@@ -48,6 +48,25 @@
         <img src="images/jambrose.jpg" alt="Your Photo" class="profile-photo">
         <p>Hi, I'm Josh, a passionate voiceover artist with years of experience in bringing stories to life through voice. I specialize in commercial, character, and narration voiceovers.</p>
         <p>I'm also experienced in audio editing and production so I can assure your idea will sound great. Let's bring your project to life!</p>
+
+        <!-- Contact Me Section -->
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for voiceover inquiries or collaborations!</p>
+
+            <form action="https://formspree.io/f/xjkvzrql" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
         <button class="close-about" onclick="showSection('home')">Back to Home</button>
     </div>
 
