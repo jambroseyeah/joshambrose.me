@@ -144,12 +144,12 @@ label {
 }
 
 input, textarea {
-    display: flex;
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
+    box-sizing: border-box; /* Includes padding and border in the width calculation */
 }
 
 button {
