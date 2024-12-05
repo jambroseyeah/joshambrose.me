@@ -126,7 +126,7 @@ button {
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
-    max-width: 420px; /* Set to slightly wider than the form */
+    max-width: 450px; /* Set to slightly wider than the form */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional for a sleek look */
 }
 
