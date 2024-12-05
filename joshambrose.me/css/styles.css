@@ -153,7 +153,7 @@ input, textarea {
 }
 
 button {
-    background-color: #ff6b6b;
+    background-color: #900;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -163,7 +163,7 @@ button {
 }
 
     button:hover {
-        background-color: #ff4a4a;
+        background-color: #b00;
     }
     
 /* Contact End */
