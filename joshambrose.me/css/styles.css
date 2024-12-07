@@ -19,7 +19,8 @@ h1,h2, a, button, .logo, footer {
 
 
 nav {
-    background-color: #333;
+    /*background-color: #333;*/
+    background: linear-gradient(to bottom left, #1a1a1a, #333, #666);
     padding: 10px 20px;
     position: fixed;
     top: 0;
@@ -131,12 +132,12 @@ button {
 
 .contact-section {
     text-align: center;
-    background-color: #333;
+    /*background-color: #333;*/
+    background: linear-gradient(to bottom left, #1a1a1a, #333, #666);
     color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
-    
 }
 
     .contact-section form {
