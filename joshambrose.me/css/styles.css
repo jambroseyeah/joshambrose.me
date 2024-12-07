@@ -227,7 +227,7 @@ footer {
         height: 100%;
         overflow-x: hidden; /* Prevent horizontal scrolling */
         /*overscroll-behavior: none;*/
-        touch-action: pan-y;
+        /*touch-action: pan-y;*/
         display: flex;
         flex-direction: column;
         margin: 0; /* Remove any unexpected margin */
