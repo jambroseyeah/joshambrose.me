@@ -12,7 +12,7 @@ h1, h2, p {
 }
 
 
-h1,h2, a, button {
+h1,h2, a, button, .logo {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -45,9 +45,7 @@ nav {
             background-color: #555;
         }
 
-.logo {
-    color: #900;
-}
+
 
 .about-content {
     display: flex;
