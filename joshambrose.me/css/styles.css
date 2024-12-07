@@ -238,7 +238,7 @@ footer {
     }
 
     .container {
-       /* min-height: calc(100vh - 60px); /* Adjust the container height to fill the screen */ 
+        min-height: calc(100vh - 60px); /* Adjust the container height to fill the screen */ 
         flex-grow: 1; /* Makes the container take up the remaining space */
     }
 }
