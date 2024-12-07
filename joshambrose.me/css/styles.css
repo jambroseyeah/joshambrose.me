@@ -194,3 +194,25 @@ footer {
     width: 100%;
     margin-top: auto; /* Add this line to push the footer to the bottom */
 }
+
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    nav {
+        position: static; /* Change the nav position to static for mobile */
+        padding: 10px;
+    }
+
+    .container {
+        margin-top: 0; /* Remove the top margin on the container for mobile */
+    }
+
+    .profile-photo {
+        width: 200px; /* Reduce the image size for mobile */
+        height: 200px;
+    }
+
+    .about-content {
+        flex-direction: column; /* Stack the image and text vertically for mobile */
+    }
+}
