@@ -228,46 +228,70 @@ footer {
 /*}*/
 
 
-/* Media Query for Smaller Screens */
-@media (max-width: 768px) {
+/* Media Query for Smaller Screens -----------------------------------------*/
+/*@media (max-width: 768px) {*/
     /* Ensure the navigation is properly styled */
-    nav {
+    /*nav {
         position: fixed;
         width: 100%;
         top: 0;
         padding: 10px;
-    }
+    }*/
 
     /* Photo adjust */
-    .profile-photo {
-        width: 80%; /* Reduce size for smaller screens */
-        height: 80%; /* Match height to width to maintain circular shape */
-        max-width: 300px; /* Optional: Limit the maximum size */
-        max-height: 300px; /* Match max-width to ensure it's a circle */
-    }
+    /*.profile-photo {
+        width: 80%;*/ /* Reduce size for smaller screens */
+        /*height: 80%;*/ /* Match height to width to maintain circular shape */
+        /*max-width: 300px;*/ /* Optional: Limit the maximum size */
+        /*max-height: 300px;*/ /* Match max-width to ensure it's a circle */
+    /*}*/
 
     /* Use flexbox for consistent layout */
-    html, body {
-        height: 100%; /* Ensure the body and html span the full viewport height */
-        margin: 0;
+    /*html, body {
+        height: 100%;*/ /* Ensure the body and html span the full viewport height */
+        /*margin: 0;
         padding: 0;
         display: flex;
         flex-direction: column;
-        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-x: hidden;*/ /* Prevent horizontal scrolling */
      
-    }
+    /*}*/
 
 
     /* Footer styles */
-    footer {
+    /*footer {*/
         /*position: static;*/ /* Avoid fixed positioning */
         /*bottom: 0;
         left: 0;*/
-        padding: 10px;
+        /*padding: 10px;
         text-align: center;
         background-color: #333;
         color: #f0f0f0;
     }
 
     
+}*/
+
+
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    .profile-photo {
+        width: 80%; /* Shrink for smaller screens */
+        max-width: 300px; /* Limit size */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .about-content {
+        flex-direction: column; /* Stack vertically */
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 0.9em; /* Slightly smaller font for compact screens */
+    }
 }
