@@ -224,6 +224,8 @@ footer {
     html, body {
         height: 100%;
         overflow-x: hidden; /* Prevent horizontal scrolling */
+        overscroll-behavior: none;
+        touch-action: pan-y;
     }
 
     .container {
