@@ -205,7 +205,7 @@ footer {
 
     .container {
         margin-top: 45px; /* Remove the top margin on the container for mobile */
-        padding-bottom: 25px;
+        padding-bottom: 40px;
     }
 
 
@@ -215,7 +215,7 @@ footer {
 
     footer {
         padding: 10px; /* Reduce the footer padding for mobile */
-        position: relative; /* allows footer to follow the content */
+        position: fixed; /* Change this to 'fixed' */
         bottom: 0; /* Add this line to anchor the footer to the bottom */
         left: 0; /* Add this line to ensure the footer spans the full width */
     }
