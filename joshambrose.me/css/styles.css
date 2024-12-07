@@ -40,6 +40,9 @@ nav {
         border-radius: 10px;
         transition: background-color 0.3s;
     }
+        nav logo {
+            font-family: 'Montserrat', sans-serif;
+        }
 
         nav a:hover {
             background-color: #555;
