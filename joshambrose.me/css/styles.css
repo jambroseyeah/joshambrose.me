@@ -74,15 +74,15 @@ nav {
 /*@media (max-width: 768px) {
     .about-content {
         flex-direction: column;*/ /* Stack image and text vertically */
-    /*}*/
+    /*}
 
     .profile-photo {
-        width: 80%; /* Reduce size for smaller screens */
-        height: 80%; /* Match height to width to maintain circular shape */
-        max-width: 300px; /* Optional: Limit the maximum size */
-        max-height: 300px; /* Match max-width to ensure it's a circle */
-    }
-}
+        width: 80%;*/ /* Reduce size for smaller screens */
+        /*height: 80%;*/ /* Match height to width to maintain circular shape */
+        /*max-width: 300px;*/ /* Optional: Limit the maximum size */
+        /*max-height: 300px;*/ /* Match max-width to ensure it's a circle */
+    /*}
+}*/
 
 
 .container {
