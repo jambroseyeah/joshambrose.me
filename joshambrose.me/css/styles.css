@@ -73,7 +73,7 @@ nav {
 
 
 .container {
-    /*flex-grow: 1;*/ /* Add this line to make the container grow and push the footer down */
+    flex-grow: 1; /* Add this line to make the container grow and push the footer down */
 
     margin-top: 60px; /* Adjust for fixed nav */
     padding: 20px;
