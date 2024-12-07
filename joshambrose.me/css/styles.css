@@ -205,7 +205,7 @@ footer {
 
     .container {
         margin-top: 45px; /* Remove the top margin on the container for mobile */
-        padding-bottom: 40px;
+        padding-bottom: 90px;
     }
 
 
@@ -225,7 +225,7 @@ footer {
     html, body {
         height: 100%;
         overflow-x: hidden; /* Prevent horizontal scrolling */
-        overscroll-behavior: none;
+        /*overscroll-behavior: none;*/
         touch-action: pan-y;
     }
 
