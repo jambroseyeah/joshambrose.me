@@ -124,9 +124,19 @@ button {
 
 /* Contact Start */
 
+/*.contact-section {
+    text-align: center;*/
+    /*background-color: #333;*/
+    /*background: linear-gradient(to bottom left, #1a1a1a, #333, #666);
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}*/
+
+/* Contact Section */
 .contact-section {
     text-align: center;
-    /*background-color: #333;*/
     background: linear-gradient(to bottom left, #1a1a1a, #333, #666);
     color: #f0f0f0;
     padding: 20px;
@@ -134,13 +144,21 @@ button {
     margin: 20px auto;
 }
 
+/*    .contact-section form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+    }*/
+
     .contact-section form {
         display: flex;
         flex-direction: column;
         gap: 10px;
         max-width: 400px;
         margin: 0 auto;
-    }  
+    }
 
 label {
     font-size: 1em;
@@ -148,14 +166,30 @@ label {
     color: #f0f0f0;
 }
 
+
 input, textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-    box-sizing: border-box; /* Includes padding and border in the width calculation */
+    box-sizing: border-box; /* Includes padding and border in width */
+    transition: border-color 0.3s ease;
 }
+
+/*input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;*/ /* Includes padding and border in the width calculation */
+/*}*/
+
+
+    input:focus, textarea:focus {
+        border-color: #555; /* Highlight on focus */
+    }
 
 button {
     background-color: #900;
@@ -173,14 +207,25 @@ button {
     
 /* Contact End */
 
+
+/* Footer */
 footer {
     background-color: #333;
     color: #f0f0f0;
     padding: 20px;
     text-align: center;
-    margin-top: auto; /* Add this line to push the footer to the bottom */
-    
+    margin-top: auto; /* Push footer to the bottom */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
+
+/*footer {
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;*/ /* Add this line to push the footer to the bottom */
+    
+/*}*/
 
 
 /* Media Query for Smaller Screens */
