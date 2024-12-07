@@ -214,4 +214,15 @@ footer {
     footer {
         padding: 10px; /* Reduce the footer padding for mobile */
     }
+
+
+    /* New styles to remove the white space at the bottom on mobile */
+    html, body {
+        height: 100%;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    .container {
+        min-height: calc(100vh - 60px); /* Adjust the container height to fill the screen */
+    }
 }
