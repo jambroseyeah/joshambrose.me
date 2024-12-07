@@ -206,10 +206,6 @@ footer {
         margin-top: 0; /* Remove the top margin on the container for mobile */
     }
 
-    .profile-photo {
-        width: 200px; /* Reduce the image size for mobile */
-        height: 200px;
-    }
 
     .about-content {
         flex-direction: column; /* Stack the image and text vertically for mobile */
