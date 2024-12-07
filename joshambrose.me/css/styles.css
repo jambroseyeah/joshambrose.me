@@ -1,6 +1,6 @@
 ﻿/* General Styles */
 html, body {
-    height: 100%;
+    height: 100%; 
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom right, #1a1a1a, #333, #666);
@@ -29,20 +29,20 @@ nav {
     box-sizing: border-box;
 }
 
-    nav a {
-        color: #fff;
-        text-decoration: none;
-        padding: 5px 15px;
-        border-radius: 10px;
-        transition: background-color 0.3s;
-    }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
 
-        nav a:hover {
-            background-color: #555;
-        }
+nav a:hover {
+    background-color: #555;
+}
 
 .container {
-    flex: 1;
+    flex: 1; 
     padding: 20px;
     margin-top: 60px;
 }
@@ -59,9 +59,9 @@ button {
     cursor: pointer;
 }
 
-    button:hover {
-        background-color: #777;
-    }
+button:hover {
+    background-color: #777;
+}
 
 footer {
     padding: 20px;
@@ -109,13 +109,13 @@ footer {
     margin: 20px auto;
 }
 
-    .contact-section form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 400px;
-        margin: 0 auto;
-    }
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
 
 input, textarea {
     width: 100%;
@@ -136,6 +136,6 @@ button {
     color: #fff;
 }
 
-    button:hover {
-        background-color: #b00;
-    }
+button:hover {
+    background-color: #b00;
+}
