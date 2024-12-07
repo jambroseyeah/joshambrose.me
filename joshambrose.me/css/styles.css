@@ -226,9 +226,9 @@ footer {
 
     /* Footer styles */
     footer {
-        position: static; /* Avoid fixed positioning */
-        bottom: 0;
-        left: 0;
+        /*position: static;*/ /* Avoid fixed positioning */
+        /*bottom: 0;
+        left: 0;*/
         padding: 10px;
         text-align: center;
         background-color: #333;
