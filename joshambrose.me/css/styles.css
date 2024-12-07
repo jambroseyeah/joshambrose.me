@@ -192,6 +192,9 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: auto; /* Add this line to push the footer to the bottom */
+    position: fixed; /* Change this to 'fixed' */
+    bottom: 0; /* Add this line to anchor the footer to the bottom */
+    left: 0; /* Add this line to ensure the footer spans the full width */
 }
 
 
@@ -203,7 +206,7 @@ footer {
     }
 
     .container {
-        margin-top: 0; /* Remove the top margin on the container for mobile */
+        margin-top: 60px; /* Remove the top margin on the container for mobile */
     }
 
 
