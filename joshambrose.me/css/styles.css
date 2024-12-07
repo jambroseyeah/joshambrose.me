@@ -205,6 +205,7 @@ footer {
 
     .container {
         margin-top: 45px; /* Remove the top margin on the container for mobile */
+        flex: 1; /* Ensures this grows to fill available space */
         padding-bottom: 90px;
     }
 
@@ -216,7 +217,7 @@ footer {
     footer {
         padding: 10px; /* Reduce the footer padding for mobile */
         position: relative; /* Change this to 'fixed' */
-        bottom: 0; /* Add this line to anchor the footer to the bottom */
+        /*bottom: 0; /* Add this line to anchor the footer to the bottom 
         left: 0; /* Add this line to ensure the footer spans the full width */
     }
 
@@ -229,16 +230,18 @@ footer {
         touch-action: pan-y;
         display: flex;
         flex-direction: column;
+        margin: 0; /* Remove any unexpected margin */
     }
 
     body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        min-height: 100vh; /* Ensure body fills the viewport */
     }
 
     .container {
-        min-height: calc(100vh - 60px); /* Adjust the container height to fill the screen */ 
+        /*min-height: calc(100vh - 60px); /* Adjust the container height to fill the screen */ 
         flex-grow: 1; /* Makes the container take up the remaining space */
     }
 }
