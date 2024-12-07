@@ -228,7 +228,6 @@ footer {
         position: static; /* Avoid fixed positioning */
         bottom: 0;
         left: 0;
-        width: 100%; /* Ensure footer spans the full width */
         padding: 10px;
         text-align: center;
         background-color: #333;
