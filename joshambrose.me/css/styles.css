@@ -1,11 +1,5 @@
 ﻿/* General Styles */
 
-/**/
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
 
 
 body {
@@ -13,12 +7,8 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom right, #1a1a1a, #333, #666);
+    /*background-color: #1a1a1a;*/
     color: #f0f0f0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%; /* Ensures the body takes up at least the full height */
 }
 
 h1, h2, p {
@@ -94,9 +84,8 @@ nav {
 
 
 .container {
-    flex-grow: 1; /* This makes the container take up the available space */
-    padding: 20px;
     margin-top: 60px; /* Adjust for fixed nav */
+    padding: 20px;
 }
 
 .demo-list audio {
@@ -194,18 +183,8 @@ button {
 /* Contact End */
 
 footer {
+    text-align: center;
+    padding: 20px;
     background-color: #333;
     color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    margin-top: auto; /* Pushes the footer to the bottom */
-    width: 100%;
-}
-
-
-/* Ensuring the footer is anchored at the bottom even if the content is small */
-@media (max-height: 600px) {
-    body {
-        flex-direction: column; /* Keeps the footer at the bottom */
-    }
 }
