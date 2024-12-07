@@ -124,15 +124,7 @@ button {
 
 /* Contact Start */
 
-/*.contact-section {
-    text-align: center;*/
-    /*background-color: #333;*/
-    /*background: linear-gradient(to bottom left, #1a1a1a, #333, #666);
-    color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px auto;
-}*/
+
 
 /* Contact Section */
 .contact-section {
@@ -144,13 +136,7 @@ button {
     margin: 20px auto;
 }
 
-/*    .contact-section form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 400px;
-        margin: 0 auto;
-    }*/
+
 
     .contact-section form {
         display: flex;
@@ -177,14 +163,6 @@ input, textarea {
     transition: border-color 0.3s ease;
 }
 
-/*input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1em;
-    box-sizing: border-box;*/ /* Includes padding and border in the width calculation */
-/*}*/
 
 
     input:focus, textarea:focus {
@@ -218,59 +196,6 @@ footer {
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-/*footer {
-    background-color: #333;
-    color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    margin-top: auto;*/ /* Add this line to push the footer to the bottom */
-    
-/*}*/
-
-
-/* Media Query for Smaller Screens -----------------------------------------*/
-/*@media (max-width: 768px) {*/
-    /* Ensure the navigation is properly styled */
-    /*nav {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        padding: 10px;
-    }*/
-
-    /* Photo adjust */
-    /*.profile-photo {
-        width: 80%;*/ /* Reduce size for smaller screens */
-        /*height: 80%;*/ /* Match height to width to maintain circular shape */
-        /*max-width: 300px;*/ /* Optional: Limit the maximum size */
-        /*max-height: 300px;*/ /* Match max-width to ensure it's a circle */
-    /*}*/
-
-    /* Use flexbox for consistent layout */
-    /*html, body {
-        height: 100%;*/ /* Ensure the body and html span the full viewport height */
-        /*margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        overflow-x: hidden;*/ /* Prevent horizontal scrolling */
-     
-    /*}*/
-
-
-    /* Footer styles */
-    /*footer {*/
-        /*position: static;*/ /* Avoid fixed positioning */
-        /*bottom: 0;
-        left: 0;*/
-        /*padding: 10px;
-        text-align: center;
-        background-color: #333;
-        color: #f0f0f0;
-    }
-
-    
-}*/
 
 
 
@@ -302,16 +227,5 @@ footer {
         font-size: 0.6em; /* Slightly smaller font for compact screens */
     }
 
-    /* Prevent overscroll and horizontal scrolling */
-    /*html {
-        overflow-x: hidden;*/ /* Prevent horizontal scrolling */
-    /*}
-
-    body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;*/ /* Ensure content stacks vertically */
-        /*min-height: 100vh;*/ /* Full viewport height for body */
-    /*}*/
+ 
 }
