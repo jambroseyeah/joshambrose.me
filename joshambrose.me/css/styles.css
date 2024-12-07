@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat; /* Prevents the background from repeating */
     background-attachment: fixed; /* Keeps the background fixed as the user scrolls */
 
+    overscroll-behavior: none;
     display: flex; /* Add this line to make the body a flex container */
     flex-direction: column; /* Add this line to stack content vertically */
 }
