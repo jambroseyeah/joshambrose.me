@@ -218,11 +218,11 @@ footer {
     }
 
     /* The main container flex behavior */
-    .container {
-        flex: 1; /* Allows the container to fill available vertical space */
-        margin-top: 60px; /* Adjust for fixed nav height */
-        padding-bottom: 80px; /* Prevent content from being obscured by footer */
-    }
+    /*.container {
+        flex: 1;*/ /* Allows the container to fill available vertical space */
+        /*margin-top: 60px;*/ /* Adjust for fixed nav height */
+        /*padding-bottom: 80px;*/ /* Prevent content from being obscured by footer */
+    /*}*/
 
     /* Footer styles */
     footer {
