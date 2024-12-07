@@ -299,7 +299,7 @@ footer {
 
     footer {
         padding: 10px;
-        font-size: 0.9em; /* Slightly smaller font for compact screens */
+        font-size: 0.5em; /* Slightly smaller font for compact screens */
     }
 
     html, body {
