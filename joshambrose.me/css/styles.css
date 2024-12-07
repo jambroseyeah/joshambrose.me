@@ -93,10 +93,9 @@ nav {
 
 
 .container {
+    flex: 1; /* Ensures this area takes up all available space */
     margin-top: 60px; /* Adjust for fixed nav */
     padding: 20px;
-
-    flex: 1; /* Ensures this area takes up all available space */
 }
 
 .demo-list audio {
