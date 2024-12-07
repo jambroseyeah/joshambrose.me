@@ -303,15 +303,15 @@ footer {
     }
 
     /* Prevent overscroll and horizontal scrolling */
-    html {
-        overflow-x: hidden; /* Prevent horizontal scrolling */
-    }
+    /*html {
+        overflow-x: hidden;*/ /* Prevent horizontal scrolling */
+    /*}
 
     body {
         margin: 0;
         padding: 0;
         display: flex;
-        flex-direction: column; /* Ensure content stacks vertically */
-        min-height: 100vh; /* Full viewport height for body */
-    }
+        flex-direction: column;*/ /* Ensure content stacks vertically */
+        /*min-height: 100vh;*/ /* Full viewport height for body */
+    /*}*/
 }
