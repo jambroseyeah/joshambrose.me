@@ -192,7 +192,7 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: auto; /* Add this line to push the footer to the bottom */
-    position: fixed; /* Change this to 'fixed' */
+    
 }
 
 
