@@ -16,16 +16,7 @@ h1,h2, a {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Optional: Adjust link styles 
-a {
-    text-decoration: none;
-    color: inherit; /* Use the default text color 
-}
 
-a:hover {
-    color: #ff6b6b; /* Add a hover color if desired 
-}
-    */
 
 nav {
     background-color: #333;
