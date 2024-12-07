@@ -290,6 +290,13 @@ footer {
         flex-direction: column; /* Stack vertically */
     }
 
+    .container {
+        flex-grow: 1; /* Ensure container stretches to fill available space */
+        padding: 10px; /* Adjust padding for smaller screens */
+        min-height: calc(100vh - 60px); /* Prevent white space */
+        box-sizing: border-box; /* Ensure padding is included in total size */
+    }
+
     footer {
         padding: 10px;
         font-size: 0.9em; /* Slightly smaller font for compact screens */
