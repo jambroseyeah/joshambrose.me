@@ -214,7 +214,7 @@ footer {
         display: flex;
         flex-direction: column;
         overflow-x: hidden; /* Prevent horizontal scrolling */
-        overflow-y: hidden;
+     
     }
 
     /* The main container flex behavior */
