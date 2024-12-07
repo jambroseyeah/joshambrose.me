@@ -191,7 +191,6 @@ footer {
     color: #f0f0f0;
     padding: 20px;
     text-align: center;
-    width: 100%;
     margin-top: auto; /* Add this line to push the footer to the bottom */
 }
 
@@ -214,5 +213,9 @@ footer {
 
     .about-content {
         flex-direction: column; /* Stack the image and text vertically for mobile */
+    }
+
+    footer {
+        padding: 10px; /* Reduce the footer padding for mobile */
     }
 }
