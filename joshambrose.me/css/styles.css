@@ -70,18 +70,10 @@ nav {
     border: 2px solid #f0f0f0; /* Optional: Adds a border */
 }
 
-/* Add media query for smaller screens */
-/*@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;*/ /* Stack image and text vertically */
-    /*}
-
-    
-}*/
 
 
 .container {
-    flex-grow: 1; /* Add this line to make the container grow and push the footer down */
+    /*flex-grow: 1;*/ /* Add this line to make the container grow and push the footer down */
 
     margin-top: 60px; /* Adjust for fixed nav */
     padding: 20px;
@@ -201,6 +193,14 @@ footer {
         padding: 10px;
     }
 
+    /* Photo adjust */
+    .profile-photo {
+        width: 80%; /* Reduce size for smaller screens */
+        height: 80%; /* Match height to width to maintain circular shape */
+        max-width: 300px; /* Optional: Limit the maximum size */
+        max-height: 300px; /* Match max-width to ensure it's a circle */
+    }
+
     /* Use flexbox for consistent layout */
     html, body {
         height: 100%; /* Ensure the body and html span the full viewport height */
@@ -212,12 +212,6 @@ footer {
      
     }
 
-    /* The main container flex behavior */
-    /*.container {
-        flex: 1;*/ /* Allows the container to fill available vertical space */
-        /*margin-top: 60px;*/ /* Adjust for fixed nav height */
-        /*padding-bottom: 80px;*/ /* Prevent content from being obscured by footer */
-    /*}*/
 
     /* Footer styles */
     footer {
@@ -230,10 +224,5 @@ footer {
         color: #f0f0f0;
     }
 
-    .profile-photo {
-        width: 80%; /* Reduce size for smaller screens */
-        height: 80%; /* Match height to width to maintain circular shape */
-        max-width: 300px; /* Optional: Limit the maximum size */
-        max-height: 300px; /* Match max-width to ensure it's a circle */
-    }
+    
 }
