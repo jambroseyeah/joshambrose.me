@@ -198,8 +198,7 @@ footer {
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
     nav {
-        position: sticky; /* Change the nav position to static for mobile */
-        top: 0;
+        position: fixed; /* Change the nav position to static for mobile */
         padding: 10px;
     }
 
