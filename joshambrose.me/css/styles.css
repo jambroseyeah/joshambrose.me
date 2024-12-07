@@ -1,18 +1,5 @@
 ﻿/* General Styles */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-    background-size: cover; /* Prevent repeating */
-}
-
-
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Pushes footer to the bottom */
-
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -96,8 +83,6 @@ nav {
 .container {
     margin-top: 60px; /* Adjust for fixed nav */
     padding: 20px;
-
-    flex: 1; /* Takes up remaining space */
 }
 
 .demo-list audio {
@@ -199,5 +184,4 @@ footer {
     padding: 20px;
     background-color: #333;
     color: #f0f0f0;
-    margin-top: auto; /* Ensures the footer is pushed to the bottom */
 }
