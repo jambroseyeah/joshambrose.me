@@ -302,4 +302,16 @@ footer {
         font-size: 0.6em; /* Slightly smaller font for compact screens */
     }
 
+    /* Prevent overscroll and horizontal scrolling */
+    html {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; /* Ensure content stacks vertically */
+        min-height: 100vh; /* Full viewport height for body */
+    }
 }
