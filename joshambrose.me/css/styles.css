@@ -198,50 +198,40 @@ footer {
 
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
+    /* Ensure the navigation is properly styled */
     nav {
-        position: fixed; /* Change the nav position to static for mobile */
+        position: fixed;
+        width: 100%;
+        top: 0;
         padding: 10px;
     }
 
-    .container {
-        margin-top: 45px; /* Remove the top margin on the container for mobile */
-        flex: 1; /* Ensures this grows to fill available space */
-        padding-bottom: 90px;
-    }
-
-
-    .about-content {
-        flex-direction: column; /* Stack the image and text vertically for mobile */
-    }
-
-    footer {
-        padding: 10px; /* Reduce the footer padding for mobile */
-        position: relative; /* Change this to 'fixed' */
-        /*bottom: 0; /* Add this line to anchor the footer to the bottom 
-        left: 0; /* Add this line to ensure the footer spans the full width */
-    }
-
-
-    /* New styles to remove the white space at the bottom on mobile */
+    /* Use flexbox for consistent layout */
     html, body {
-        height: 100%;
+        height: 100%; /* Ensure the body and html span the full viewport height */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
         overflow-x: hidden; /* Prevent horizontal scrolling */
-        /*overscroll-behavior: none;*/
-        /*touch-action: pan-y;*/
-        display: flex;
-        flex-direction: column;
-        margin: 0; /* Remove any unexpected margin */
     }
 
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 100vh; /* Ensure body fills the viewport */
-    }
-
+    /* The main container flex behavior */
     .container {
-        /*min-height: calc(100vh - 60px); /* Adjust the container height to fill the screen */ 
-        flex-grow: 1; /* Makes the container take up the remaining space */
+        flex: 1; /* Allows the container to fill available vertical space */
+        margin-top: 60px; /* Adjust for fixed nav height */
+        padding-bottom: 80px; /* Prevent content from being obscured by footer */
+    }
+
+    /* Footer styles */
+    footer {
+        position: static; /* Avoid fixed positioning */
+        bottom: 0;
+        left: 0;
+        width: 100%; /* Ensure footer spans the full width */
+        padding: 10px;
+        text-align: center;
+        background-color: #333;
+        color: #f0f0f0;
     }
 }
