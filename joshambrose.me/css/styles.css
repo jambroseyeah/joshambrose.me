@@ -18,6 +18,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    min-height: 100%; /* Ensures the body takes up at least the full height */
 }
 
 h1, h2, p {
@@ -198,6 +199,7 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: auto; /* Pushes the footer to the bottom */
+    width: 100%;
 }
 
 
