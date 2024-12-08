@@ -230,7 +230,7 @@ footer {
     }
 
     .logo-photo {
-        max-width: 80%; /* Adjust to fit well on mobile screens */
+        max-width: 90%; /* Adjust to fit well on mobile screens */
         height: auto; /* Maintain aspect ratio */
     }
 
