@@ -135,7 +135,7 @@ button {
     margin: 10px auto;
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #900;
+    background-color: #3B0811;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -143,7 +143,7 @@ button {
 }
 
     .close-about:hover {
-        background-color: #b00;
+        background-color: #777;
     }
 
 /* Contact Start */
