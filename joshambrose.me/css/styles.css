@@ -1,4 +1,8 @@
 ﻿/* General Styles */
+html {
+    overscroll-behavior: none; /* Prevent overscroll effects like glow */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -112,7 +116,7 @@ button {
     margin: 10px auto;
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #900;
+    background-colaor: #900;
     color: #fff;
     border: none;
     border-radius: 5px;
