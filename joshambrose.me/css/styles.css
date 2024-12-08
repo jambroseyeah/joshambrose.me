@@ -220,7 +220,7 @@ footer {
     .logo-photo {
         max-width: 90%; /* Adjust to fit well on mobile screens */
         height: auto; /* Maintain aspect ratio */
-        border-radius: 30px;
+        border-radius: 20px;
     }
 
     .profile-photo {
