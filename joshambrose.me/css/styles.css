@@ -113,7 +113,7 @@ button {
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #2d0a10;
+    background-color: #3B0811;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -135,7 +135,7 @@ button {
     margin: 10px auto;
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #2d0a10;
+    background-color: #900;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -194,7 +194,7 @@ input, textarea {
     }
 
 button {
-    background-color: #900;
+    background-color: #3B0811;
     color: #fff;
     padding: 10px 20px;
     border: none;
