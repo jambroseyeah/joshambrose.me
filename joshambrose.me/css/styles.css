@@ -59,7 +59,7 @@ nav {
 
 
         nav a:hover {
-            background-color: #32756F;
+            background-color: #7BB7AF;
         }
 
 
@@ -113,7 +113,7 @@ button {
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #32756F;
+    background-color: #7BB7AF;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -135,7 +135,7 @@ button {
     margin: 10px auto;
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #32756F;
+    background-color: #7BB7AF;
     color: #fff;
     border: none;
     border-radius: 5px;
