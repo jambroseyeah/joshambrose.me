@@ -1,7 +1,5 @@
 ﻿/* General Styles */
-html {
-    overscroll-behavior: none; /* Prevent overscroll effects like glow */
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -13,7 +11,6 @@ body {
     background-size: cover; /* Ensures the background image covers the full screen */
     background-repeat: no-repeat; /* Prevents the background from repeating */
     background-attachment: fixed; /* Keeps the background fixed as the user scrolls */
-    background: inherit;
     
     display: flex; /* Add this line to make the body a flex container */
     flex-direction: column; /* Add this line to stack content vertically */
