@@ -191,7 +191,8 @@ button {
 
 /* Footer */
 footer {
-    background-color: #333;
+    /*background-color: #333;*/
+    background: linear-gradient(to upper right, #1a1a1a, #333, #666);
     color: #f0f0f0;
     padding: 20px;
     text-align: center;
