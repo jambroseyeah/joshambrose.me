@@ -193,7 +193,7 @@ input, textarea {
         border-color: #555; /* Highlight on focus */
     }
 
-button {
+/*button {
     background-color: #3B0811;
     color: #fff;
     padding: 10px 20px;
@@ -201,12 +201,12 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
-}
+}*/
 
-    button:hover {
+/*    button:hover {
         background-color: #b00;
     }
-    
+    */
 /* Contact End */
 
 
