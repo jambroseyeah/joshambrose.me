@@ -190,11 +190,11 @@ button {
 /* Footer */
 footer {
     background-color: #333;
-    color: #f0f0f0;
+    /*color: #f0f0f0;*/
     padding: 20px;
     text-align: center;
     margin-top: auto; /* Push footer to the bottom */
-    /*transition: background-color 0.3s ease; /* Smooth hover effect */
+    *transition: background-color 0.1s ease; /* Smooth hover effect 
 }
 
 
