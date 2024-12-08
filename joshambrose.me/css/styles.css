@@ -68,6 +68,7 @@ nav {
     height: auto; /* Maintains the aspect ratio of the logo */
     display: block; /* Removes any unwanted space beneath the image */
     margin: 0 auto; /* Centers the logo horizontally */
+    border-radius: 20px; /* Apply rounded edges */
 }
 
 .welcome-text {
