@@ -158,6 +158,8 @@ button {
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
+    width: fit-content; /* Make the width match the content */
+    max-width: 100%; /* Prevent it from exceeding the screen size */
 }
 
 
