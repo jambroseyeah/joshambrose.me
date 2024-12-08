@@ -194,7 +194,7 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: auto; /* Push footer to the bottom */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    /*transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
 
