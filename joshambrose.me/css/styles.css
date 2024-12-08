@@ -193,20 +193,7 @@ input, textarea {
         border-color: #555; /* Highlight on focus */
     }
 
-/*button {
-    background-color: #3B0811;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}*/
 
-/*    button:hover {
-        background-color: #b00;
-    }
-    */
 /* Contact End */
 
 
@@ -233,6 +220,7 @@ footer {
     .logo-photo {
         max-width: 90%; /* Adjust to fit well on mobile screens */
         height: auto; /* Maintain aspect ratio */
+        border-radius: 30px;
     }
 
     .profile-photo {
