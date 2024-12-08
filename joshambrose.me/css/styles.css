@@ -26,6 +26,10 @@ h1,h2, a, button, .logo, footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    color: #555;
+}
+
 a:visited {
     color: inherit;
 }
