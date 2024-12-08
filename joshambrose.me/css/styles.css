@@ -208,6 +208,7 @@ footer {
 
     .profile-photo {
         width: 80%; /* Shrink for smaller screens */
+        height: 80%;
         max-width: 300px; /* Limit size */
         height: auto; /* Maintain aspect ratio */
     }
