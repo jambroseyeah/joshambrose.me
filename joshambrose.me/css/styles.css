@@ -89,7 +89,9 @@ nav {
     height: 400px;
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image fits well */
-    border: 2px solid #4db6ac; /* Optional: Adds a border */
+    /*border: 2px solid #4db6ac; /* Optional: Adds a border */
+    border: 10px solid transparent; /* Set a border first */
+    border-image: linear-gradient(to bottom, #4db6ac, #214F4B) 1; /* Gradient border */
 }
 
 
